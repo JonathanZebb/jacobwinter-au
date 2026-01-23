@@ -1,16 +1,18 @@
 body	{
-	display: grid;
-    place-items: center;
-	height: 100vh;
 	margin: 0;
 }
 
-.image {
-	width: 75vw;
-	/* padding: 10%; */
+.container {
+	display: grid;
+    place-items: center;
+	height: 100vh;
 }
 
-.text {
+.image {
+	width: 50vw;
+}
+
+/* .text {
 	display: block;
 	font-size: 400px;
-}
+} */
