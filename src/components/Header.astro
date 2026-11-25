@@ -1,0 +1,66 @@
+<header>
+    <div class="logo">
+        <!-- <div class="text">Hello World</div> -->
+        <img class="image" src="/JWLogo v01.webp" alt="Jacob Winter"/>
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="/">Home</a>
+            </li>
+            <li>
+                <a href="/portfolio">Portfolio</a>
+            </li>
+            <li>
+                <a href="/contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<style>
+
+    .logo {
+        display: grid;
+        place-items: center;
+        width: 100vw;
+        /* height: 100vh; */
+    }
+
+    .image {
+        width: 50vw;
+    }
+    
+    nav {
+        width: 100vw;
+        display: grid;
+        place-items: center;
+    }
+
+    nav ul {
+        display: block;
+    }
+    
+    nav li {
+        list-style-type: none;
+        display: inline;
+        text-align: center;
+
+        /* display: grid; */
+        width: 20vw;
+    }
+    
+    nav a {
+        font-family: "League Spartan", sans-serif;
+        color: #000000;
+        text-decoration: none;
+    }
+    
+    nav a.active {
+        text-decoration: solid underline, #000000 50%;
+    }
+
+    nav a:hover {
+        text-decoration: underline 10%;
+    }
+</style>
